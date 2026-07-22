@@ -1,3 +1,4 @@
+#COMMENTS ARE IN SPANISH 
 #Definimos la primera variable, convert y le asignamos texto
 def convert(texto):
     #Utilizamos .replace para convertir las caras de emojis a los emojis
