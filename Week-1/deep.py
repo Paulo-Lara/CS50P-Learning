@@ -1,6 +1,6 @@
 
 def stringorint():
-    Question = input("What is the answer to the great question of life, the universe, and everything? ")
+    Question = input("What is the answer to the great question of life, the universe, and everything? ").lower()
     try:
         return int(Question)
     except ValueError:
