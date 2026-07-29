@@ -1,3 +1,0 @@
-#Here I generate what is three periods or points between the words on the input...
-input = input("Put your characters here ")
-print(input.replace(" ", "..."))
