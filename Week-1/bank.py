@@ -4,3 +4,17 @@
 #Luego, crea una variable en la que guardes el input pero en .lower() y en .strip()
 #Luego, usa el if y el elif para determinar cual es la opcion, por ejemplo, si la primera letra es h y la palabra no es hello, print $20.
 
+pregunta = input().replace(",", "")
+preguntalower = pregunta.lower().strip()
+preguntasplit = preguntalower.split()
+
+
+if preguntasplit[0] == "hello":
+    print("$0")
+
+elif preguntalower[0] == "h" and preguntasplit[0] != "hello":
+    print("$20")
+
+elif preguntalower[0] != "h" and preguntasplit[0] != "hello":
+    print("$100")
+
